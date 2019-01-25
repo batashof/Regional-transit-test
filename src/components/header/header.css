@@ -1,0 +1,69 @@
+.Header__main {
+    margin:auto 30px auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Header {
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.Header__logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+}
+.Header__menu {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+}
+
+.Header__menu_a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.Header__input {
+    font-size: 18px;
+    color: #999999;
+    font-weight: 500;
+    width: 250px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #a1a1a1;
+    padding-left: 20px;
+    outline: none;
+
+}
+
+.Header__input_magnifier {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 18px 20px;
+    z-index: 2;
+}
+
+.Header__logo_name {
+    font-size: 30px;
+    line-height: 22px;
+    color: #001c88;
+
+    font-weight: 700;
+}

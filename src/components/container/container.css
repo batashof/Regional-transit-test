@@ -1,0 +1,19 @@
+.Container__main {
+    background: url(../../images/bridge.png) no-repeat;
+    background-position-y: top;
+    background-size: cover;
+    height: 73%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container__filter {
+    width: 100%;
+    height: 100%;
+    background-color: #004d9b;
+    opacity: 0.3;
+}
+

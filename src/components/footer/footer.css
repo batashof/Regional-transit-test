@@ -1,0 +1,34 @@
+.Footer {
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.Footer__main {
+    margin:auto 30px auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Footer__logo {
+   margin-left: 60px;
+}
+
+.Footer__links {
+    font-size: 18px;
+    color: #004d9b;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.Footer__social {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}

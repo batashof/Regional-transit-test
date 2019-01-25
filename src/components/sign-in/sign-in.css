@@ -1,0 +1,50 @@
+.Sign-in__main {
+    width: 870px;
+    height: 495px;
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: absolute;
+
+}
+
+.Sign-in__wrapper {
+    margin: 50px;
+}
+
+.Sign-in__right {
+
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
+    grid-template-rows: repeat(3, 0.5fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    float: right;
+    width: 50%;
+
+}
+
+
+.Sign-in__right_transport {
+    grid-column: 1/ span 2;
+
+}
+
+.Sign-in__right_qr {
+
+    grid-column: 1/ span 2;
+}
+
+.Sign-in__left {
+    float: left;
+    width: 50%;
+
+}
+
+.Sign-in__title {
+    font-size: 40px;
+    color: #004d9b;
+    font-weight: 400;
+    text-align: center;
+}
