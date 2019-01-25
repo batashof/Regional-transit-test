@@ -8,7 +8,7 @@ import {ReactComponent as GooglePlay} from "../../images/googlePlay.svg"
 export default class SignIn extends Component {
     render() {
         return (
-            <div className="Sign-in__main">
+            <div className="Sign-in">
                 <div className="Sign-in__wrapper">
                     <div className="Sign-in__right">
                         <img className="Sign-in__right_transport" width="150px" src="../../images/transport.png" alt="transport"/>
@@ -24,6 +24,9 @@ export default class SignIn extends Component {
                     <div className="Sign-in__left">
                         <div className="Sign-in__title">
                             SIGN-IN REQUIRED
+                        </div>
+                        <div className="Sign-in__hint">
+                            {this.props.hint}
                         </div>
 
                     </div>

@@ -11,7 +11,7 @@ export default class footer extends Component {
     render() {
         return (
             <div className="Footer">
-                <div className="Footer__main">
+                <div className="Footer__wrapper">
                         <img className="Footer__logo" width="170px" src="../../images/parkeon.png" alt="parkeon" />
                     <div className="Footer__links">
                         <Link to="/">How to register?</Link>

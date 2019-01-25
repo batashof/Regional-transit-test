@@ -9,7 +9,7 @@ export default class container extends Component {
         return (
             <div>
                 <Header/>
-                <div className="Container__main">
+                <div className="Container">
                     <div className="Container__filter"/>
                         {this.props.children}
                 </div>

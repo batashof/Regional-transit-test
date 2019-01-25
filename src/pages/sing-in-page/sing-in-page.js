@@ -10,7 +10,9 @@ export default class singInPage extends Component {
         return (
 
                 <Container>
-                    <SignIn/>
+                    <SignIn
+                        hint="Please note an activation code will be sent via text message to the provided cell phone number"
+                    />
 
                     {/*<div className="Sing-in-page__main"/>*/}
                 </Container>

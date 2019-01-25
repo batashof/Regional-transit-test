@@ -6,7 +6,7 @@
     width: 100%;
     bottom: 0;
 }
-.Footer__main {
+.Footer__wrapper {
     margin:auto 30px auto 30px;
     display: flex;
     align-items: center;
