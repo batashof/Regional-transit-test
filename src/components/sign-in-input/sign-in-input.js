@@ -5,9 +5,7 @@ import './sign-in-input.css'
 export default class SignInInput extends Component {
     render() {
         return (
-            <div className="Sign-in-button">
-
-            </div>
+            <input placeholder={this.props.name} className="Sign-in-input"/>
         )
     }
 }
