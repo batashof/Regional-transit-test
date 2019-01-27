@@ -1,26 +1,24 @@
 import React, {Component, Fragment} from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
-import Header from "./components/header/header"
-import Footer from "./components/footer/footer"
-import SingInPage from "./pages/sing-in-page/sing-in-page"
-import SingIn from "./components/sign-in/sign-in"
+import SingInRequired from "./pages/sing-in-required/sing-in-required"
+import AccountDetails from "./pages/account-details/account-details"
+import SingUpFirst from "./pages/sign-up-first/sing-up-first"
+import SingUpSecond from "./pages/sing-up-second/sing-up-second"
+
+
 
 class App extends Component {
     render() {
         return (
             <Router >
                 <Fragment>
-
                     <Switch>
-                        <Route exact path="/" component={SingInPage} />
-                        {/*<Route path="/news/:id" component={OneNews}/>*/}
-                        {/*<Route path="/news" component={News} />*/}
-                        {/*<Route path="/dictionary" component={Dictionary} />*/}
-                        {/*<Route path="/login" component={Login} />*/}
-                        {/*<Route path="/register" component={Login} />*/}
+                        <Route exact path="/" component={SingInRequired} />
+                        <Route path="/account-details" component={AccountDetails}/>
+                        <Route path="/sing-up-first" component={SingUpFirst} />
+                        <Route path="/sing-up-second" component={SingUpSecond} />
                     </Switch>
-
                 </Fragment>
 
             </Router>

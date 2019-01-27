@@ -10,6 +10,70 @@
     margin-top: 20px;
 
 }
+.Sign-in-input__button {
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Sign-in-input__button_color_blue {
+    background-color: #004d9b;
+    border: 1px solid #004d9b;
+}
+
+.Sign-in-input__button_color_green {
+    border: 1px solid #54a826;
+    background-color: #54a826;
+}
+
+.Sign-in-input__button:disabled {
+
+    border: 1px solid #999999;
+    background-color: #999999;
+}
+
+.Sign-in-input:focus {
+    outline: none;
+}
+
+.Sign-in-input__checkbox_box {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #999999;
+}
+
+.Sign-in-input__checkbox_label {
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    font-style: italic;
+}
+
+.Sign-in-input__additions {
+    margin-top: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Sign-in-input__checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.Sign-in-input__link {
+    font-size: 16px;
+    color: #999999;
+    font-style: italic;
+}
 
 .Sign-in-input:focus {
     border: 1px solid #666666;

@@ -4,8 +4,6 @@ import {ReactComponent as QrCode} from "../../images/qr.svg"
 import {ReactComponent as AppStore} from "../../images/appStore.svg"
 import {ReactComponent as Transport} from "../../images/transport.svg"
 import {ReactComponent as GooglePlay} from "../../images/googlePlay.svg"
-import SignInInput from "./../sign-in-input/sign-in-input"
-import SignInButton from "./../sign-in-button/sign-in-button"
 
 export default class SignIn extends Component {
     render() {
@@ -30,9 +28,9 @@ export default class SignIn extends Component {
                         <div className="Sign-in__hint">
                             {this.props.hint}
                         </div>
-                        {this.props.children}
-
-
+                        <form className="Sign-in__form">
+                            {this.props.children}
+                        </form>
                     </div>
                 </div>
             </div>
