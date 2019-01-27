@@ -4,7 +4,6 @@ import './sign-in-input.css'
 export default class SignInInput extends Component {
     constructor(props) {
         super(props);
-        // this.textInput = React.createRef();
         this.state = {value: ""};
         this.handleChange = this.handleChange.bind(this);
     }
@@ -35,12 +34,12 @@ export default class SignInInput extends Component {
         let value = this.state.value;
 
         if (this.props.type === "button") {
-                value = this.props.name;
-                if (this.props.color === "green") {
-                    style = "Sign-in-input__button Sign-in-input__button_color_green"
-                } else {
-                    style = "Sign-in-input__button Sign-in-input__button_color_blue"
-                }
+            value = this.props.name;
+            if (this.props.color === "green") {
+                style = "Sign-in-input__button Sign-in-input__button_color_green"
+            } else {
+                style = "Sign-in-input__button Sign-in-input__button_color_blue"
+            }
         }
 
         return (
@@ -58,7 +57,3 @@ export default class SignInInput extends Component {
         )
     }
 }
-
-// SignInInput.defaultProps = {
-//     type: ""
-// }

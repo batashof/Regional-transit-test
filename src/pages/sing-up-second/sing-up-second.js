@@ -6,21 +6,22 @@ import SignInInput from "../../components/sign-in-input/sign-in-input"
 import {Link} from "react-router-dom"
 
 export default class singUpSecond extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             num: true
         };
         this.onChangeNum = this.onChangeNum.bind(this);
-
     }
+
     onChangeNum(a) {
-        if (a > 999){
+        if (a > 999) {
             this.setState({
                 num: false
             })
         }
     }
+
     render() {
         return (
             <Container>

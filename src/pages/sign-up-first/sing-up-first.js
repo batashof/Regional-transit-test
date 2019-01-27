@@ -7,7 +7,7 @@ import {Link} from "react-router-dom"
 import * as EmailValidator from "email-validator"
 
 export default class singUpFirst extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             email: true,
@@ -16,20 +16,23 @@ export default class singUpFirst extends Component {
         this.onChangeEmail = this.onChangeEmail.bind(this);
         this.onChangeTel = this.onChangeTel.bind(this);
     }
+
     onChangeEmail(a) {
-        if (EmailValidator.validate(a)){
+        if (EmailValidator.validate(a)) {
             this.setState({
                 email: false
             })
         }
     }
+
     onChangeTel(a) {
-        if (a > 1000000){
+        if (a > 1000000) {
             this.setState({
                 tel: false
             })
         }
     }
+
     render() {
         return (
             <Container>
@@ -40,7 +43,8 @@ export default class singUpFirst extends Component {
                     <SignInInput value={this.onChangeTel} type="tel" name="Cell phone number"/>
                     <SignInInput value={this.onChangeEmail} type="email" name="Email"/>
                     <Link to="/sing-up-second">
-                        <SignInInput disabled={this.state.tel || this.state.email} type="button" color="green" name="SEND ME A CODE"/>
+                        <SignInInput disabled={this.state.tel || this.state.email} type="button" color="green"
+                                     name="SEND ME A CODE"/>
                     </Link>
                 </SignIn>
             </Container>

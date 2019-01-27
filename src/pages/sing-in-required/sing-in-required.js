@@ -16,7 +16,7 @@ export default class singInRequired extends Component {
                     <SignInInput type="password" name="Password"/>
                     <SignInInput color="green" type="button" name="LOGIN"/>
                     <Link to="/account-details">
-                        <SignInInput type="button" color="blue" name="CREAT AN ACCOUNT" />
+                        <SignInInput type="button" color="blue" name="CREAT AN ACCOUNT"/>
                     </Link>
                 </SignIn>
             </Container>
