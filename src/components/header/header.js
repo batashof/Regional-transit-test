@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import './header.css'
 import {ReactComponent as Logo} from "../../images/logo.svg"
+import {ReactComponent as Search} from "../../images/search.svg"
 import {Link} from "react-router-dom";
 
 export default class header extends Component {
@@ -22,7 +23,8 @@ export default class header extends Component {
                         <Link className="Header__menu_a" to="/">CONTACT US</Link>
                     </div>
 
-                    <input type="search" placeholder="SEARCH" className="Header__input "/>
+                    <input type="search" placeholder="SEARCH" className="Header__search"/>
+                    <Search className="Header__search_magnifier"/>
 
                 </div>
             </div>

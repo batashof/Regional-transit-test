@@ -30,7 +30,7 @@ export default class singUpSecond extends Component {
                     title="SIGN-UP"
                 >
                     <SignInInput value={this.onChangeNum} name="Enter your activation code"/>
-                    <Link to="/">
+                    <Link to="/account-details">
                         <SignInInput disabled={this.state.num} type="button" color="green" name="NEXT"/>
                     </Link>
                 </SignIn>

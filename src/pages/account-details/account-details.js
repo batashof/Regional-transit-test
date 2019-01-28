@@ -6,6 +6,9 @@ import SignInInput from "../../components/sign-in-input/sign-in-input"
 import {Link} from "react-router-dom"
 
 export default class accountDetails extends Component {
+    onChange(a) {
+        console.log(a)
+    }
     render() {
         return (
             <Container>
@@ -13,10 +16,10 @@ export default class accountDetails extends Component {
                     title="ACCOUNT DETAILS"
                     hint="Please select a login and a password for your account"
                 >
-                    <SignInInput name="Login"/>
-                    <SignInInput name="Password"/>
-                    <SignInInput name="Re-enter password"/>
-                    <Link to="/sing-up-first">
+                    <SignInInput value={this.onChange} name="Login"/>
+                    <SignInInput value={this.onChange} type="password" name="Password"/>
+                    <SignInInput value={this.onChange} type="password" name="Re-enter password"/>
+                    <Link to="/">
                         <SignInInput type="button" color="green" name="CREAT AN ACCOUNT"/>
                     </Link>
                 </SignIn>

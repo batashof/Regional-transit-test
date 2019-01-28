@@ -1,5 +1,5 @@
 .Header__wrapper {
-    margin:auto 30px auto 30px;
+    margin:auto 100px auto 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,35 +8,37 @@
 
 .Header {
     height: 120px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     display: flex;
 }
 
 .Header__logo {
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 380px;
+    width: 265px;
 }
 .Header__menu {
+
     font-size: 18px;
+font-weight: 500;
     color: #000000;
-    font-weight: 500;
     display: flex;
     justify-content: space-between;
-    width: 40%;
-
+    width: 575px;
+    text-transform: uppercase;
+    margin-right: -480px;
 }
+
 
 .Header__menu_a {
     color: #000000;
     text-decoration: none;
 }
 
-.Header__input {
-    font-size: 18px;
-    color: #999999;
+.Header__search {
+    font-size: 16px;
+    color: rgb(153, 153, 153);
     font-weight: 500;
     width: 250px;
     height: 50px;
@@ -47,23 +49,17 @@
 
 }
 
-.Header__input_magnifier {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 20px;
+.Header__search_magnifier {
+   width: 25px;
     position: absolute;
-    top: 0;
-    right: 0;
-    padding: 18px 20px;
-    z-index: 2;
+    right: 110px;
 }
 
 .Header__logo_name {
-    font-size: 30px;
-    line-height: 22px;
-    color: #001c88;
+    font-size: 22px;
 
-    font-weight: 700;
+    color: rgb(0, 28, 136);
+    font-weight: 600;
+
+
 }

@@ -15,9 +15,9 @@ class App extends Component {
                 <Fragment>
                     <Switch>
                         <Route exact path="/" component={SingInRequired} />
-                        <Route path="/account-details" component={AccountDetails}/>
                         <Route path="/sing-up-first" component={SingUpFirst} />
                         <Route path="/sing-up-second" component={SingUpSecond} />
+                        <Route path="/account-details" component={AccountDetails}/>
                     </Switch>
                 </Fragment>
 

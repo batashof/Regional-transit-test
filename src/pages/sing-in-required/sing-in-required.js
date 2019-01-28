@@ -6,16 +6,19 @@ import SignInInput from "../../components/sign-in-input/sign-in-input"
 import {Link} from "react-router-dom"
 
 export default class singInRequired extends Component {
+    onChange(a) {
+       console.log(a)
+    }
     render() {
         return (
             <Container>
                 <SignIn
                     title="SIGN-IN REQUIRED"
                 >
-                    <SignInInput name="Login"/>
-                    <SignInInput type="password" name="Password"/>
+                    <SignInInput value={this.onChange} name="Login"/>
+                    <SignInInput value={this.onChange} type="password" name="Password"/>
                     <SignInInput color="green" type="button" name="LOGIN"/>
-                    <Link to="/account-details">
+                    <Link to="/sing-up-first">
                         <SignInInput type="button" color="blue" name="CREAT AN ACCOUNT"/>
                     </Link>
                 </SignIn>
