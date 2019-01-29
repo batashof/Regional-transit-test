@@ -12,12 +12,12 @@
 }
 
 .Sign-in-input__icon_email {
-    background: url(../../images/mail.svg) no-repeat;
+    background: #FFFFFF url(../../images/mail.svg) no-repeat;
     width: 290px ;
     padding-left: 60px;
 }
 .Sign-in-input__icon_phone {
-    background: url(../../images/phone.svg) no-repeat;
+    background: #FFFFFF url(../../images/phone.svg) no-repeat;
     width: 290px ;
     padding-left: 60px;
 }
