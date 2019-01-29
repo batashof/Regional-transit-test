@@ -7,7 +7,7 @@ export default class SignIn extends Component {
             <div className="Sign-in">
                 <div className="Sign-in__wrapper">
                     <div className="Sign-in__right">
-                        <img className="Sign-in__right_transport" width="150px" src="../../images/transport.png"
+                        <img className="Sign-in__right_transport" width="170px" src="../../images/transport.png"
                              alt="transport"/>
                         <img className="Sign-in__right_qr" width="120px" src="../../images/qr.png" alt="qr"/>
                         <img className="Sign-in__right_app-store" width="100px" src="../../images/appStore.png" alt="appStore"/>

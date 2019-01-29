@@ -10,7 +10,7 @@ export default class footer extends Component {
         return (
             <div className="Footer">
                 <div className="Footer__wrapper">
-                    <img className="Footer__logo" width="170px" src="../../images/parkeon.png" alt="parkeon"/>
+                    <img className="Footer__logo" width="140px" src="../../images/parkeon.png" alt="parkeon"/>
                     <div className="Footer__links">
                         <Link className="Footer__links__link" to="/">How to register?</Link>
                         <Link className="Footer__links__link" to="/">Legal notice</Link>
