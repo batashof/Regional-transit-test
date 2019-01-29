@@ -1,15 +1,25 @@
 .Sign-in-input {
-    width: 295px;
+    width: 330px;
     height: 48px;
-    background-color: #ffffff;
     border: 1px solid #54a826;
-    padding-left: 55px;
+    padding-left: 20px;
     font-size: 14px;
     font-weight: 500;
     color: #666666;
     font-style: italic;
     margin-top: 10px;
 
+}
+
+.Sign-in-input__icon_email {
+    background: url(../../images/mail.svg) no-repeat;
+    width: 290px ;
+    padding-left: 60px;
+}
+.Sign-in-input__icon_phone {
+    background: url(../../images/phone.svg) no-repeat;
+    width: 290px ;
+    padding-left: 60px;
 }
 .Sign-in-input__button {
     width: 350px;
@@ -65,7 +75,7 @@
     width: 350px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .Sign-in-input__checkbox {

@@ -3,8 +3,6 @@ import './sing-up-first.css'
 import Container from "../../components/container/container"
 import SignIn from "../../components/sign-in/sign-in"
 import SignInInput from "../../components/sign-in-input/sign-in-input"
-import {ReactComponent as Mail} from "../../images/mail.svg"
-import {ReactComponent as Phone} from "../../images/phone.svg"
 import {Link} from "react-router-dom"
 import * as EmailValidator from "email-validator"
 
@@ -43,9 +41,7 @@ export default class singUpFirst extends Component {
                     title="SIGN-UP"
                 >
                     <SignInInput value={this.onChangeTel} type="tel" name="Cell phone number"/>
-                    <Phone className="Sign-up-first__icon_phone"/>
                     <SignInInput value={this.onChangeEmail} type="email" name="Email"/>
-                    <Mail className="Sign-up-first__icon_mail"/>
                     <Link to="/sing-up-second">
                         <SignInInput disabled={this.state.tel || this.state.email} type="button" color="green"
                                      name="SEND ME A CODE"/>

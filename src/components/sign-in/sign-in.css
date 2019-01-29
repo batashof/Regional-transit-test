@@ -41,6 +41,13 @@
     grid-column: 1/ span 2;
 }
 
+.Sign-in__right_app-store {
+    margin-top: -30px;
+}
+.Sign-in__right_google-play {
+    margin-top: -30px;
+}
+
 .Sign-in__left {
     display: flex;
     flex-direction: column;

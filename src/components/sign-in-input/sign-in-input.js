@@ -42,6 +42,13 @@ export default class SignInInput extends Component {
             }
         }
 
+        if (this.props.type === "tel") {
+            style = style + " Sign-in-input__icon_phone"
+        }
+        if (this.props.type === "email") {
+            style = style + " Sign-in-input__icon_email"
+        }
+
         return (
             <div>
                 <input

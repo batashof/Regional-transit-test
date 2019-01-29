@@ -10,8 +10,8 @@ export default class SignIn extends Component {
                         <img className="Sign-in__right_transport" width="150px" src="../../images/transport.png"
                              alt="transport"/>
                         <img className="Sign-in__right_qr" width="120px" src="../../images/qr.png" alt="qr"/>
-                        <img width="100px" src="../../images/appStore.png" alt="appStore"/>
-                        <img width="100px" src="../../images/googlePlay.png" alt="googlePlay"/>
+                        <img className="Sign-in__right_app-store" width="100px" src="../../images/appStore.png" alt="appStore"/>
+                        <img className="Sign-in__right_google-play" width="100px" src="../../images/googlePlay.png" alt="googlePlay"/>
                     </div>
                     <div className="Sign-in__left">
                         <div className="Sign-in__title">
