@@ -7,7 +7,7 @@ export default class container extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                <Header />
                 <div className="Container">
                     <div className="Container__filter"/>
                     {this.props.children}

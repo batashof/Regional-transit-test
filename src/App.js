@@ -5,6 +5,7 @@ import SingInRequired from "./pages/sing-in-required/sing-in-required"
 import AccountDetails from "./pages/account-details/account-details"
 import SingUpFirst from "./pages/sign-up-first/sing-up-first"
 import SingUpSecond from "./pages/sing-up-second/sing-up-second"
+import UserMain from "./pages/user-main/user-main"
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
                         <Route path="/sing-up-first" component={SingUpFirst} />
                         <Route path="/sing-up-second" component={SingUpSecond} />
                         <Route path="/account-details" component={AccountDetails}/>
+                        <Route path="/user-main" component={UserMain}/>
                     </Switch>
                 </Fragment>
 

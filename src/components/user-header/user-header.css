@@ -1,0 +1,8 @@
+.hero-head-background {
+    background-color: #f4f4f4;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

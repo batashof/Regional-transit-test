@@ -12,12 +12,7 @@
     display: flex;
 }
 
-.Header__logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 265px;
-}
+
 .Header__menu {
 
     font-size: 18px;
@@ -54,8 +49,3 @@
     right: 110px;
 }
 
-.Header__logo_name {
-    font-size: 22px;
-    color: rgb(0, 28, 136);
-    font-weight: 600;
-}
